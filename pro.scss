@@ -97,3 +97,53 @@ article{
 }
 
 }
+
+footer{
+    background-color: hsl(0, 2%, 33%);
+    color:#fff;
+
+    .row-c{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap:40px;
+        padding:30px 0;
+    };
+
+    .col-footer1{
+        display: flex;
+        flex-direction: column;
+        gap:20px;
+        align-items: center;
+    }
+
+    a{
+        text-decoration: none;
+        color:#fff;
+        &:hover{
+            color:#ff3838
+        }
+    }
+
+      
+     .col-footer2{
+        display: flex;
+        flex-direction: column;
+        gap:20px;
+        align-items: center;
+
+        input{
+            text-align: center;
+            padding:25x;
+            width:150px;
+            border-radius:30px;
+            border: 1px solid silver;
+        }
+
+        button{
+            padding:10px;
+            border-radius:30px;
+            border: 1px solid silver;
+        }
+     }
+    
+}
